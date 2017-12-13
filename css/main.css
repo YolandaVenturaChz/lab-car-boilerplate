@@ -1,1 +1,42 @@
 /* Los estilos de tu proyecto */
+header .nav-wrapper{
+    background-color: white;
+    
+}
+header .nav-wrapper a{
+    color: #000;
+}
+
+img{
+    
+}
+
+.page-footer{
+    background-color: #2b2b2b;
+}
+.card-title{
+    border: 2px solid red;
+    margin-left: 60px;
+    margin-bottom: 95px;
+    background-color: yellow;
+    padding: 20px;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .hero {
+    height: 440px;
+  }
+ }
+
+@media (min-width: 992px) {
+  .hero {
+    height: 660px;  
+  }
+
+  .galery {
+    height: 460px; 
+  }
+}
