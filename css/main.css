@@ -1,7 +1,44 @@
-.card-title{
-    
+header .nav-wrapper{
+    background-color: white;
 }
 
-.card-content{
-    outline: 1px solid red;
+header .nav-wrapper .logoFirst{
+    width: 60%;
 }
+.card-title{
+    display: flex;   
+    align-content:space-between ;
+    align-items:  baseline ;
+    flex-direction: row;
+     flex-wrap: nowrap;
+    
+
+    outline: 1px solid green;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.flex-item {
+ 
+  background: #f7b617;
+    padding: 2rem;
+    width: 18rem;
+    height: 10rem;
+    margin-bottom: 6.5rem;
+    margin-left: 2.4rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.flex-item span .logoBlanco {
+    width: 30%;
+}
+
