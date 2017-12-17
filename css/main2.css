@@ -1,4 +1,27 @@
- body {
+/*variables*/
+
+:root {
+  --yellow: #f7b617;
+  --white: #ffffff;
+  --turqueza:#12b7a7;
+  --gray:#d8d4d4;
+}
+/*styles background*/
+header nav .nav-wrapper {
+  background: var(--white);
+}
+.aside .container .row .card-first ,.aside ,.iphone ,.mapha{
+  background-color: var(--yellow);
+}
+#modal1 {
+  background-color: var(--turqueza);
+  height: max-content;
+
+}
+#modal1 .modal-content .content{
+  background-color: var(--gray);
+}
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
