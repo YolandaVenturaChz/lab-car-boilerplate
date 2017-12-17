@@ -1,0 +1,60 @@
+header .nav-wrapper{
+    background-color: white;
+}
+
+header .nav-wrapper .logoFirst{
+    width: 60%;
+}
+/*para mobiles ---320---*/
+.card .card-image .card-title {
+    padding: 0px;
+    max-width: none; 
+    background: #f7b617;    
+    width: 19rem;
+    height: 11rem;
+    margin-bottom: 8.9rem;
+    margin-left: 4.93rem;
+    line-height: 36px;
+}
+.card-title .flex-container .logoBlanco{
+    width: 30%;
+    margin-left: 3.5rem;
+    margin-bottom: 1.1rem;
+    margin-top: -0.5rem;
+}
+
+
+.card-title .flex-container h2 {
+    font-size: 1.8rem;
+    line-height: 96%;
+    margin: 0.78rem 0 -0.576rem 0;
+    -webkit-margin-before: 2.2rem;
+    -webkit-margin-start: 2rem;
+}
+<picture>
+        <source srcset="assets/images/taxi-desktop.jpg " media="(min-width:992px) ">
+        <source srcset="assets/images/taxi-tablet.jpg " media="(min-width:768px) ">
+        <source srcset="assets/images/taxi-mobile-horiztal.jpg " media="(min-width:568px) ">
+        <img src="assets/images/taxi-mobile.jpg " alt="description ">
+    </picture>
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    letter-spacing: 0rem;
+    text-transform: none;
+    padding: 0 1rem;
+    margin-left: 2rem;
+    line-height: 27px;
+    background-color: #ffffff;
+    color: #000;
+    font-weight: 400;
+r
+}
+.row .col.s7 {
+    width: 50.3%;
+}
+
+
+/*---------------------*/

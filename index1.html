@@ -1,31 +1,313 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="vendors/materialize/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="assets/icons/fontello.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 </head>
+
 <body>
-    <div class="row">
-        <div class="col s12 m12">
-            <div class="card">
-                <div class="card-image">
-                    <img class="view-mobile" src="assets/images/taxi.jpg">
-                    <img class="view-desktop" src="assets/images/taxi1.jpg">
-                    <span class="card-title view-mobile">Comienza a viajar con
-                        <span>logo</span>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!------primera sección aside------------------------------------>
+    <section class=" hide-on-small-only aside ">
+        <div class="container ">
+            <div class="row right">
+                <div class="col m7 offset-m5 l5 offset-l7">
+                    <h4 class="col l12 ">Disfruta del viaje</h4>
+                    <h4 class="col l12 ">Eres dueño de tu tiempo</h4>
+        
+                    <span class="col m12 l12">
+                        <p class="col l3">Viaja con</p>
+                        <img class="col l3 " src="assets/images/logoBlanco.png" alt="">
                     </span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require
-                        little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
+                    <!------------ Modal Trigger------------- -->
+        
+                    <a class="col m6 l6 waves-effect waves-light btn modal-trigger" href="#modal1">regístrate</a>
+        
+                    <!------------------------- Modal Structure -------------------------------------------- -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <picture><img src="assets/images/capture-modal" alt=""></picture>
+                        </div>
+                        <!------------ Modal de mentira------------- -->
+                    
+                        <div class="modal-content">
+                            <div class="col">
+                                <form class="">
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">person</i>
+                                        <input id="icon_person" type="text" class="validate">
+                                        <label for="icon_person">First Name</label>
+                                    </div>
+                                </form>
+                                <form class="">
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">https</i>
+                                        <input id="icon_https password" type="password" class="validate">
+                                        <label for="icon_https password">Password</label>
+                                        <a class="btn" href="!#">login</a>
+                                    </div>                            
+                           
+                                </form>
+                              <div class="modal-footer">
+                               
+                               <p>Fogot password? <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Click Here</a></p>
+                              </div>
+                            </div>
+                        
+                        </div>
+                        <!------------ termino de Modal de mentira------------- -->
+                        
+                    </div>
+                    <form>
+                        <div class="col m12 l12">
+        
+                            <div class="input-field inline col m5 l5">
+                                <i class="material-icons prefix">email</i>
+                                <input id="icon_email" type="email" class="validate">
+                                <label for="icon_email" data-error="wrong" data-success="right">Email</label>
+                            </div>
+        
+                            <p class="col m2 l2">O bien</p>
+        
+                            <div class="input-field col m5 l5">
+                                <i class="material-icons prefix">phone_android</i>
+                                <input id="icon_phone_android" type="tel" class="validate">
+                                <label for="icon_phone_android">celular</label>
+                            </div>
+                        </div>
+        
+                    </form>
+                    <!-- Modal Trigger -->
+                    <a class="col l6 waves-effect waves-light btn modal-trigger" href="#modal1">Conviértete en conductor</a>
+        
+                    <!------------------- Modal Structure-------------------------------------------------------------------- -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <h4>Modal Header</h4>
+                            <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="hide-on-med-and-up aside1">
+        <div class="container ">
+            <div class="row ">
+                <div class="col s12 m12 l12 ">
+                    <div class="col s11 offset-s2 card-panel teal amber accent-4 padding ">
+                        <h5>Comienza a viajar </h5>
+                        <h5>con</h5>
+                        <span>
+                            <img class="col s4 offset-s2 m3 offset-m1 l2 logoblanco" src="assets/images/logoBlanco.png" alt="">
+                        </span>
+                        <a class="btn-medium yellow lighten-4  black-text darken-3!important" href="">Descarga la app</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------- segunda parte----------------------------------------------------- -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col m12 l12">
+                    <div class="col m6 l6">
+                            
+                        <picture>
+                                <h4 class="hide-on-med-and-up">La nueva app</h4>
+                                <img class="col s12 m12 l12" src="assets/images/iPhone6Plus.png" alt="">
+                        </picture>
+                        <h5 class="hide-on-med-and-up">Llega a tu destino aún más rápido</h5>
+                    </div>
+                    <div class="hide-on-small-only col m6 l5 offset-l1">
+                        <h5>Descarga la nueva app</h5>
+                        <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido</p>
+                        <p>Con solo tocar un botón, un auto llega justo a tu ubicación.Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------- tercera parte----------------------------------------------------- -->
+    <section class="option-job">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 offset-m6 l5 offset-l7 valign-wrapper">
+                    <div class="col s12 m12 l12">
+                        <h5>Conduce cuando quieras</h5>
+                        <p>LabCar es una opción flexible para alcanzar </p>
+                        <p>tus metas financieras.</p>
+                         <!-- Modal Trigger -->
+                    <a class="col l8 waves-effect waves-light btn modal-trigger" href="#modal1">Conviértete en conductor</a>
+        
+                    <!------------------- Modal Structure-------------------------------------------------------------------- -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <h4>Modal Header</h4>
+                            <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
+                    </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------- cuarta parte----------------------------------------------------- -->
+    <section class="mapa">
+        <div class="container">
+            <div class="row">
+                <div class="col  m12 l12">
+                    <div class="col s12 m6 l6">
+                        <h6>Tarifas</h6>
+                        <h6>Consulta las tarifas LabCar aquí</h6>
+                        <form >
+                            <div class="col l12">
+                                <span><img class="col l2"src="assets/images/shape.png" alt="" ></span>
+                                <div class="col l10 input-field ">
+                                     <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">Lima Centro, San Luis,San Isidro</label>
+                                </div>
+                                <span><img class="col l2"src="assets/images/shape2.png" alt="" ></span>
+
+                                <div class="col l10 input-field ">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Lima Centro, San Luis,San Isidro</label>
+                                </div>
+                            </div>
+                        </form>
+                        <a href="" class="btn">!traza ruta¡</a>
+                    </div>
+                    <div class="show-on-medium-and-up hide-on-small-only col m6 l6 ">
+                        <picture><img src="assets/images/capture.png" alt=""></picture>
+                    </div>
+               
+                   <div class="hide-on-med-and-up col s12">
+                      <picture><img class="col s12" src="assets/images/capture-mobile.png" alt=""></picture>
+                   </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!------foooteeer-------->
+    <footer class="page-footer card-panel teal grey darken-4">
+        <div class="container">
+            <div class="row">
+                <!--logo blanco-->
+                <div class="col s12 m12 l12 logofooter">
+                    <span>
+                        <img class="col s4 m2 l2 logoblanco" src="assets/images/logoBlanco.png" alt="">
+                    </span>
+            
+                </div>
+                <!--primer bloque-->
+
+                <div class="col s6 m12 l12">
+                    <!--primera parte del primer-bloque -->
+                    <div class="col s12 m2 l2 offset-m2 offset-l2 ">
+                       
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Viaja</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Conduce</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Ciudades</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Ciudades</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!"> Entregas</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Cómofunciona? </a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Paises </a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Seguridad </a></li>
+                        </ul>
+                    </div>
+                    <!--segundo parte del primer-bloque -->
+
+                    <div class="hide-on-small-only col s12 m3 offset-m3 l3 offset-l2">
+   
+                        <ul>
+                             <li><a class="grey-text text-lighten-3" href="#!">Oportunidades</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Servicios</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Eventos</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Desarrolladores</a></li>
+                            <li><a class="grey-text text-lighten-3"href="#!">Laboratoria</a></li>
+                            <li><a class="grey-text text-lighten-3"href="#!">coders</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Nuestrahistoria</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">APIdeLabCar</a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+
+                <!--segundo bloque-->
+                <div class="col s6 m12 l12">
+                    <!--primera parte del segundo-bloque-->
+                    <div id="icox-box" class=" col s12  m2 l5 "  >
+                        <ul>
+                            <li class="col  m1 s1 l1 "><span id="iconox" class=" icon-appstore"></span></li>
+                            <li class="col  m1 s1 l1 "><span id="iconox" class=" icon-facebook"></span></li>
+                            <li class="col  m1 s1 l1 "><span id="iconox" class=" icon-twitter-bird"></span></li>
+                            <li class="col  m1 s1 l1 "><span id="iconox" class=" icon-linkedin"></span></li>
+                            <li class="col  m1 s1 l1 "><span id="iconox" class=" icon-play"></span></li>
+                        </ul>
+                    </div>
+                    <!--segundo parte del segundo-bloque-->
+                    <div class="col s12 m3 offset-m9 l7 imag">
+                        <ul >
+                            <li><span ><img  class="col s12 m10 l4  offset-m3 offset-l8" src="assets/images/appstore.png" alt=""></span></li>
+                            <li><span ><img  class="col s12 m10 l4  offset-m3 offset-l8" src="assets/images/enBadgeWebGeneric.png" alt=""></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--parte final-->
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 LabCar technologies Inc.
+                
+            </div>
+        </div>
+    </footer>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript " src="vendors/js/jquery-3.2.1.min.js "></script>
+    <script type="text/javascript " src="vendors/materialize/js/materialize.min.js "></script>
+    <script type="text/javascript " src="js/app.js "></script>
 </body>
+
 </html>
