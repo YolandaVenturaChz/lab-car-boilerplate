@@ -12,26 +12,31 @@ header nav .nav-wrapper  {
 }
 .aside .container .row .card-first ,.aside ,.iphone ,.mapha{
   background-color: var(--yellow);
-  height: 456px;
-  padding-top: 1rem;
+  height: 391px;
+  padding-top: 4rem;
   padding-left: 1rem;
 }
 #modal1 {
   background-color: var(--turqueza);
   height: max-content;
 
-}
+ }
 #modal1 .modal-content .content{
   background-color: var(--gray);
 }
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  }
+  #logoblanco {
+    margin-top: 1rem;
   }
 /*""*/
 
-
+.btn {
+  border-radius: 1rem;
+}
 
 /*---------aside primera sección-------*/
 /*aside mobile*/
@@ -52,7 +57,11 @@ body {
   background-size: cover;
     
 }
-
+.card-first .modalaside{
+  text-transform: unset;
+    font-weight: bold;
+}
+/*segunda parte*/
 .iphone .container{
   outline: 2px solid var(--white);
 }
@@ -138,6 +147,7 @@ body {
    /*seccion mapa del peru ----------------------------------*/
   .mapha{
     padding: 3rem;
+    height: 500px;
   }
 
   .mapha .container .row .mapha-informativo{
