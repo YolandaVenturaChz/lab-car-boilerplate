@@ -10,12 +10,14 @@
 header nav .nav-wrapper  {
   background: var(--white);
 }
-.aside .container .row .card-first ,.aside ,.iphone ,.mapha{
+.aside .container .row .card-first{
   background-color: var(--yellow);
-  height: 391px;
+  height: 395px;
   padding-top: 4rem;
   padding-left: 1rem;
+  margin-top: 3.7rem;
 }
+
 #modal1 {
   background-color: var(--turqueza);
   height: max-content;
@@ -23,6 +25,7 @@ header nav .nav-wrapper  {
  }
 #modal1 .modal-content .content{
   background-color: var(--gray);
+  margin-top: 4rem;
 }
 body {
   display: flex;
@@ -32,8 +35,32 @@ body {
   #logoblanco {
     margin-top: 1rem;
   }
-/*""*/
+/*"------------------modales---------------"*/
+/*"------------------modal  1  inicia sesión ---------------"*/
+#modal1 .img-modal {
+  border: 2px solid red;
+  position: absolute;
+  margin-left: 15rem;
+}
 
+.modal .modal-content {
+  padding: 24px;
+  width: 35rem;
+}
+
+.inputs-modal1 #icon_person {
+  border: 1px solid gray;
+  width: 27rem;
+  background-color: var(--white);
+}
+
+#password1 {
+  border: 1px solid gray;
+  width: 27rem;
+  background-color: var(--white);
+}
+
+/*"------------------modales---------------"*/
 .btn {
   border-radius: 1rem;
 }
@@ -42,13 +69,16 @@ body {
 /*aside mobile*/
 
 .aside1 {
-    background-image: url("../assets/images/taxi-mobile.jpg ");
-    background-size: cover;
-    height: 344px;
+  background-image: url("../assets/images/taxi-mobile.jpg ");
+  background-size: cover;
+  height: 344px;
+}
+.padding {
+  margin-top: 9rem;
 }
 
 .aside .container{
-    width: 100%;
+ width: 100%;
 }
 
 .option-job{
@@ -62,8 +92,17 @@ body {
     font-weight: bold;
 }
 /*segunda parte*/
+
+.iphone {
+  background-color: var(--yellow);
+  height: 500px;
+  padding-top: 4rem;
+  padding-left: 1rem;
+}
+
 .iphone .container{
   outline: 2px solid var(--white);
+  
 }
 
 .iphone .text #iphone2{
@@ -90,9 +129,23 @@ body {
   border: 2px solid var(--white); 
 }
 
+.mapha {
+ background-color: var(--yellow);
+  height: 735px;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  margin-bottom: -0.5rem;
+}
+
 .mapha  #button-ruta{
   border-radius: 0.5rem;
   text-transform: unset;
+}
+
+#maps{
+  border: 2px solid white;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
 .option-job .container {
@@ -103,6 +156,11 @@ body {
   width: 100%;
   height: 100%;
 }
+.option-job .option-conductor{
+  padding: 9.5rem 5rem;
+  color: var(--white);
+  background: rgba(0, 0, 0, 0.4); 
+  }
 
 @media (min-width: 768px)and (max-width: 993px){
  
@@ -189,7 +247,7 @@ body {
   .option-job .option-conductor{
   padding: 9.5rem 5rem;
   color: var(--white);
-  background-color: rgba(0 0 0 1 0); 
+  background: rgba(0, 0, 0, 0.4); 
   }
 }
 
