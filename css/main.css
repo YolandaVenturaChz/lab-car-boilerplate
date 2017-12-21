@@ -12,6 +12,9 @@ header nav .nav-wrapper  {
 }
 .aside .container .row .card-first ,.aside ,.iphone ,.mapha{
   background-color: var(--yellow);
+  height: 456px;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 #modal1 {
   background-color: var(--turqueza);
@@ -44,54 +47,72 @@ body {
 }
 
 .option-job{
-    height: 397px;
-    background-image: url(../assets/images/conduce-mobile.jpg);
-     background-size: cover;
+  height: 397px;
+  background-image: url(../assets/images/conduce-mobile.jpg);
+  background-size: cover;
     
-  }
+}
+
 .iphone .container{
   outline: 2px solid var(--white);
 }
-.iphone .text img{
-   padding: 2rem;
- }
+
+.iphone .text #iphone2{
+ padding-top: 8rem;
+  width: 100%;
+}
+
+.iphone h5 {
+  font-size: 20px;
+  margin-top: 14px;
+
+}
+.iphone h4 {
+  position: absolute;
+  margin-top: 71px;
+  margin-left: 87px;
+  font-size: 27px;
+  font-weight: bold;
+}
 
 .inputs-peru #first_name{
   background-color: transparent;
   border-radius: 1rem;
-  border: 2px solid var(--white);
-   
+  border: 2px solid var(--white); 
 }
+
 .mapha  #button-ruta{
   border-radius: 0.5rem;
-    text-transform: unset;
+  text-transform: unset;
 }
+
 .option-job .container {
-    width: 100%;
-  
+  width: 100%;
 }
+
 .option-job .container .row {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-@media (min-width: 768px)and (max-width: 991px){
+
+@media (min-width: 768px)and (max-width: 993px){
  
   .padding{
-    height: 19rem;
-    margin-top: 12rem;
-    border-radius: 0.5rem;
+  height: 19rem;
+  margin-top: 12rem;
+  border-radius: 0.5rem;
  }
 
-   .aside {
-    background-image: url("../assets/images/taxi-tablet.jpg ");
-    background-size: cover;
-    height: 600px;
+  .aside {
+  background-image: url("../assets/images/taxi-tablet.jpg ");
+  background-size: cover;
+  height: 600px;
  }
 
  .option-job{
-    height: 397px;
-    background-image: url(../assets/images/conduce.jpg);
-     background-size: cover;
+  height: 397px;
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
   }
 
 }
@@ -99,84 +120,103 @@ body {
 /*view desktop*/
 @media (min-width: 1280px){
   /*seccion imagen del celular------------------------------- */
-   .iphone{
-     padding: 3rem 0rem;
-   } 
-   .iphone .container .row  .text .iphone-text {
-     margin-top: 3rem;
-    padding: 1rem;
-    line-height: 3rem;
-   }
+  .iphone{
+  padding: 6rem 0rem;
+  height: 625px;
+  } 
+  
+ .iphone .text #iphone2{
+ padding-top: 0rem;
+ padding-top: 1rem;
+ }
+
+  .iphone .container .row  .text .iphone-text {
+  margin-top: 3rem;
+  padding: 1rem;
+  line-height: 3rem;
+  }
    /*seccion mapa del peru ----------------------------------*/
-   .mapha{
-      padding: 3rem;
-   }
-   .mapha .container .row .mapha-informativo{
-     padding: 5rem 0rem;
-   }
-   .mapha-informativo .inputs-peru .shape {
-     margin-top: 2rem;
-   }
-   .mapha .container .row .mapha-google .peru img{
-     height: 23rem;
-    margin-top: 3.7rem;
-    border: 3px solid white;
-    padding: 0.3rem;
-   }
+  .mapha{
+    padding: 3rem;
+  }
+
+  .mapha .container .row .mapha-informativo{
+    padding: 5rem 0rem;
+  }
+
+  .mapha-informativo .inputs-peru .shape {
+    margin-top: 2rem;
+  }
+
+  .mapha .container .row .mapha-google .peru img{
+   height: 23rem;
+   margin-top: 3.7rem;
+   border: 3px solid white;
+   padding: 0.3rem;
+  }
    
   .padding{
-    height: 9rem;
-    margin-top: 5rem;
-    border-radius: 0.5rem;
-}
+   height: 9rem;
+   margin-top: 5rem;
+   border-radius: 0.5rem;
+  }
+
  .aside {
-    background-image: url("../assets/images/taxi-desktop.jpg ");
-    background-size: cover;
-    height: 650px;
-}
+  background-image: url("../assets/images/taxi-desktop.jpg ");
+  background-size: cover;
+  height: 650px;
+  }
+
  .aside .container .row {
    width: 100%;
- }
+  }
+
  .option-job{  /*sección segunda imagen del conductor*/
-    height: 455px;
-    background-image: url(../assets/images/conduce-desktop.jpg);
-     background-size: cover;
+  height: 455px;
+  background-image: url(../assets/images/conduce-desktop.jpg);
+  background-size: cover;
   }
   .option-job .option-conductor{
-    padding: 9.5rem 5rem;
-    color: var(--white);
-    background-color: rgba(0 0 0 1 0); 
+  padding: 9.5rem 5rem;
+  color: var(--white);
+  background-color: rgba(0 0 0 1 0); 
   }
 }
 
 /*---------------------------footer---------------------*/
 footer .imag img{
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
+
 footer .container .row .logofooter{
-    border-bottom: 4px solid;
+  border-bottom: 4px solid;
 }
+
 footer .footer-copyright .container{
-    border-top: 4px solid;
+ border-top: 4px solid;
 }
-@media (min-width: 768px)and (max-width: 991px){
+@media (min-width: 768px)and (max-width: 993px){
  
-    footer  a{
-    font-size: 1rem;
-    line-height: 2.3rem;
+  footer  a{
+  font-size: 1rem;
+  line-height: 2.3rem;
   } 
-    footer .imag {
-    border: 3px solid;
-    margin-top: -11rem;
+
+  footer .imag {
+  border: 3px solid;
+  margin-top: -11rem;
   }
-    footer .imag img{
-    margin-top: 2rem;
+
+  footer .imag img{
+  margin-top: 2rem;
   }
-    footer #icox-box {
-    position: absolute;
-    margin-top: -4rem;
-    margin-left: -1.5rem;    
+
+  footer #icox-box {
+  position: absolute;
+  margin-top: -4rem;
+  margin-left: -1.5rem;    
   }
+
 
  
 }
