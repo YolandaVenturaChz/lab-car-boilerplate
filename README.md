@@ -1,4 +1,4 @@
-# LAB-<AR
+# LAB-<AR -- CON MATERIALIZE
 Recrea la siguiente página web. Las imágenes y todo lo que necesitas lo encuentras aquí, recuerda hacer un fork del repositorio y clonarlo en tu máquina.
 
 <img src="assets/images/readme-1.PNG" alt="">

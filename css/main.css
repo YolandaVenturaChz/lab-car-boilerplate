@@ -1,233 +1,223 @@
 /*variables*/
 
 :root {
-  --yellow: #f7b617;
-  --white: #ffffff;
-  --turqueza:#12b7a7;
-  --gray:#d8d4d4;
+--yellow: #f7b617;
+--white: #ffffff;
+--turqueza:#12b7a7;
+--gray:#d8d4d4;
 }
 /*styles background---------------------------------*/
-header nav .nav-wrapper  {
-  background: var(--white);
-}
-.aside .container .row .card-first{
-  background-color: var(--yellow);
-  height: 395px;
-  padding-top: 4rem;
-  padding-left: 1rem;
-  margin-top: 3.7rem;
-}
 
-#modal1 {
-  background-color: var(--turqueza);
-  height: max-content;
-
- }
-#modal1 .modal-content .content{
-  background-color: var(--gray);
-  margin-top: 4rem;
-}
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  }
-  #logoblanco {
-    margin-top: 1rem;
-  }
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+header nav .nav-wrapper  {
+background: var(--white);
+}
+
+.aside .container .row .card-first{
+background-color: var(--yellow);
+height: 395px;
+padding-top: 4rem;
+padding-left: 1rem;
+margin-top: 3.7rem;
+}
+
+
+.iphone {
+background-color: var(--yellow);
+height: 500px;
+padding-top: 4rem;
+padding-left: 1rem;
+}
+
+.mapha {
+background-color: var(--yellow);
+height: 735px;
+padding-top: 4rem;
+padding-left: 1rem;
+margin-bottom: -0.5rem;
+}
+
+#logoblanco {
+margin-top: 1rem;
+}
+
 /*"------------------modales---------------"*/
 /*"------------------modal  1  inicia sesión ---------------"*/
+#modal1 {
+background-color: var(--turqueza);
+height: max-content;
+}
+
+#modal1 .modal-content .content{
+background-color: var(--gray);
+}
+
 #modal1 .img-modal {
-  border: 2px solid red;
-  position: absolute;
-  margin-left: 15rem;
+margin-left: 15rem;
+}
+
+.modal1 .modal-content {
+padding: 24px;
+width: 35rem;
 }
 
 .modal .modal-content {
-  padding: 24px;
-  width: 35rem;
+padding: 24px;
+width: 515px;
 }
 
-.inputs-modal1 #icon_person {
-  border: 1px solid gray;
-  width: 27rem;
-  background-color: var(--white);
+.modal1-footer1 .btn {
+position: absolute;
+left: 19.1rem; 
 }
 
-#password1 {
-  border: 1px solid gray;
-  width: 27rem;
-  background-color: var(--white);
+.modal1-footer1 .modal-close1 {
+left: 16rem;
+bottom: -1rem;
 }
 
-/*"------------------modales---------------"*/
-.btn {
-  border-radius: 1rem;
+.modal1-p {
+position: absolute;
+left: 14.1rem;
+bottom: 1rem;
 }
+
+.inputs-modal1 .input-field .prefix {
+font-size: 2rem;
+height: 48.7px;
+border: 2px solid gray;
+margin-top: 0.5rem;
+}
+
+nav .inputs-modal1 .input-field input {
+outline: 2px solid gray;
+width: 27rem;
+background-color: var(--white);
+}
+
+/*"------------------ termino de modales---------------"*/
+
 
 /*---------aside primera sección-------*/
 /*aside mobile*/
 
 .aside1 {
-  background-image: url("../assets/images/taxi-mobile.jpg ");
-  background-size: cover;
-  height: 344px;
+background-image: url("../assets/images/taxi-mobile.jpg ");
+background-size: cover;
+height: 344px;
 }
+
+.btn {
+border-radius: 1rem;
+}
+
 .padding {
-  margin-top: 9rem;
+margin-top: 9rem;
 }
 
 .aside .container{
- width: 100%;
+width: 100%;
 }
 
 .option-job{
-  height: 397px;
-  background-image: url(../assets/images/conduce-mobile.jpg);
-  background-size: cover;
-    
+height: 397px;
+background-image: url(../assets/images/conduce-mobile.jpg);
+background-size: cover;
 }
-.card-first .modalaside{
-  text-transform: unset;
-    font-weight: bold;
-}
-/*segunda parte*/
 
-.iphone {
-  background-color: var(--yellow);
-  height: 500px;
-  padding-top: 4rem;
-  padding-left: 1rem;
+.card-first .modalaside{
+text-transform: unset;
+font-weight: bold;
 }
+
+/*--------------------------- segunda sección--------------------------------------*/
 
 .iphone .container{
-  outline: 2px solid var(--white);
-  
+outline: 2px solid var(--white);  
 }
 
 .iphone .text #iphone2{
- padding-top: 8rem;
-  width: 100%;
+padding-top: 8rem;
+width: 100%;
 }
 
 .iphone h5 {
-  font-size: 20px;
-  margin-top: 14px;
-
+font-size: 20px;
+margin-top: 14px;
 }
+
 .iphone h4 {
-  position: absolute;
-  margin-top: 71px;
-  margin-left: 87px;
-  font-size: 27px;
-  font-weight: bold;
+position: absolute;
+margin-top: 71px;
+margin-left: 87px;
+font-size: 27px;
+font-weight: bold;
 }
 
 .inputs-peru #first_name{
-  background-color: transparent;
-  border-radius: 1rem;
-  border: 2px solid var(--white); 
+background-color: transparent;
+border-radius: 1rem;
+border: 2px solid var(--white); 
 }
 
-.mapha {
- background-color: var(--yellow);
-  height: 735px;
-  padding-top: 4rem;
-  padding-left: 1rem;
-  margin-bottom: -0.5rem;
-}
-
-.mapha  #button-ruta{
-  border-radius: 0.5rem;
-  text-transform: unset;
-}
-
-#maps{
-  border: 2px solid white;
-  padding: 1rem;
-  margin-top: 2rem;
-}
-
+/*--------------------------- tercera sección--------------------------------------*/
 .option-job .container {
-  width: 100%;
+width: 100%;
 }
 
 .option-job .container .row {
-  width: 100%;
-  height: 100%;
+width: 100%;
+height: 100%;
 }
+
 .option-job .option-conductor{
-  padding: 9.5rem 5rem;
-  color: var(--white);
-  background: rgba(0, 0, 0, 0.4); 
-  }
-
-@media (min-width: 768px)and (max-width: 993px){
- 
-  .padding{
-  height: 19rem;
-  margin-top: 12rem;
-  border-radius: 0.5rem;
- }
-
-  .aside {
-  background-image: url("../assets/images/taxi-tablet.jpg ");
-  background-size: cover;
-  height: 600px;
- }
-
- .option-job{
-  height: 397px;
-  background-image: url(../assets/images/conduce.jpg);
-  background-size: cover;
-  }
-
+padding: 9.5rem 5rem;
+color: var(--white);
+background: rgba(0, 0, 0, 0.4); 
 }
 
-/*view desktop*/
+
+/*--------------------------- cuarta sección--------------------------------------*/
+.mapha  #button-ruta{
+border-radius: 0.5rem;
+text-transform: unset;
+}
+
+#maps{
+border: 2px solid white;
+padding: 1rem;
+margin-top: 2rem;
+}
+
+.mapha .shape{
+position: absolute;
+left: -2rem;
+top: 1rem;  
+}
+
+
+/*--------footer---------------*/
+footer .imag img{
+margin-bottom: 1rem;
+}
+
+footer .container .row .logofooter{
+border-bottom: 4px solid;
+}
+
+footer .footer-copyright .container{
+border-top: 4px solid;
+}
+
+
+/*---------------- view desktop  ------------------------*/
+
 @media (min-width: 1280px){
-  /*seccion imagen del celular------------------------------- */
-  .iphone{
-  padding: 6rem 0rem;
-  height: 625px;
-  } 
-  
- .iphone .text #iphone2{
- padding-top: 0rem;
- padding-top: 1rem;
- }
-
-  .iphone .container .row  .text .iphone-text {
-  margin-top: 3rem;
-  padding: 1rem;
-  line-height: 3rem;
-  }
-   /*seccion mapa del peru ----------------------------------*/
-  .mapha{
-    padding: 3rem;
-    height: 500px;
-  }
-
-  .mapha .container .row .mapha-informativo{
-    padding: 5rem 0rem;
-  }
-
-  .mapha-informativo .inputs-peru .shape {
-    margin-top: 2rem;
-  }
-
-  .mapha .container .row .mapha-google .peru img{
-   height: 23rem;
-   margin-top: 3.7rem;
-   border: 3px solid white;
-   padding: 0.3rem;
-  }
-   
-  .padding{
-   height: 9rem;
-   margin-top: 5rem;
-   border-radius: 0.5rem;
-  }
 
  .aside {
   background-image: url("../assets/images/taxi-desktop.jpg ");
@@ -236,80 +226,94 @@ body {
   }
 
  .aside .container .row {
-   width: 100%;
+  width: 100%;
   }
 
- .option-job{  /*sección segunda imagen del conductor*/
+  .padding{
+  height: 9rem;
+  margin-top: 5rem;
+  border-radius: 0.5rem;
+  }
+
+  /* segunda seccion -- */
+  .iphone{
+  padding: 6rem 0rem;
+  height: 625px;
+  } 
+  
+  .iphone .text #iphone2{
+  padding-top: 0rem;
+  padding-top: 1rem;
+  }
+
+  .iphone .container .row  .text .iphone-text {
+  margin-top: 3rem;
+  padding: 1rem;
+  line-height: 3rem;
+  }
+
+  /* tercera seccion ---*/
+  
+  .option-job{  /*sección segunda imagen del conductor*/
   height: 455px;
   background-image: url(../assets/images/conduce-desktop.jpg);
   background-size: cover;
   }
+
   .option-job .option-conductor{
   padding: 9.5rem 5rem;
   color: var(--white);
   background: rgba(0, 0, 0, 0.4); 
   }
-}
-
-/*---------------------------footer---------------------*/
-footer .imag img{
-  margin-bottom: 1rem;
-}
-
-footer .container .row .logofooter{
-  border-bottom: 4px solid;
-}
-
-footer .footer-copyright .container{
- border-top: 4px solid;
-}
-@media (min-width: 768px)and (max-width: 993px){
  
+  /* cuarta seccion ---*/
+
+  .mapha{
+  padding: 3rem;
+  height: 500px;
+  }
+
+  .mapha .container .row .mapha-informativo{
+  padding: 5rem 0rem;
+  }
+
+  .mapha-informativo .inputs-peru .shape {
+  margin-top: 0rem;
+  }
+
+  .mapha .container .row .mapha-google .peru img{
+  height: 23rem;
+  margin-top: 3.7rem;
+  border: 3px solid white;
+  padding: 0.3rem;
+  width: 100%;
+  }
+
+  
+  /*--------footer---------------*/
+
   footer  a{
   font-size: 1rem;
   line-height: 2.3rem;
-  } 
+  }
 
   footer .imag {
-  border: 3px solid;
-  margin-top: -11rem;
+  margin-top: -14rem;
   }
 
   footer .imag img{
+  margin: 1rem;
   margin-top: 2rem;
-  }
-
-  footer #icox-box {
-  position: absolute;
-  margin-top: -4rem;
-  margin-left: -1.5rem;    
-  }
-
-
- 
-}
-
-
-/*view desktop*/
-@media (min-width: 1280px){
-    footer  a{
-    font-size: 1rem;
-    line-height: 2.3rem;
-  }
-    footer .imag {
-    margin-top: -14rem;
-  }
-    footer .imag img{
-    margin: 1rem;
-    margin-top: 2rem;
   } 
-    footer #iconox {
-    position: absolute;
-    margin-top: -3rem;
-    margin-left: -1.5rem;
+
+  footer #iconox {
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: -1.5rem;
   }
 
- 
 }
+
+
 
 
